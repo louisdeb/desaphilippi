@@ -137,3 +137,48 @@ body {
 #about-second {
   margin-bottom: 50px;
 }
+
+/* Exhibitions */
+
+#exhibitions-background {
+  background-image: url('images/exhibitions-background.jpg');
+}
+
+#exhibitions-top-spacer {
+  height: 50px;
+}
+
+#exhibitions-wrapper, #press-wrapper {
+  font-weight: 100;
+  margin: 50px;
+  margin-top: 0;
+}
+
+#exhibitions-wrapper h2, #press-wrapper h2 {
+  font-weight: 100;
+}
+
+#exhibitions-wrapper ul, #press-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 22.5px;
+}
+
+#exhibitions-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#exhibitions-spacer {
+  width: 50px;
+}
+
+#exhibitions-first, #exhibitions-second {
+  min-width: 200px;
+}
+
+#press-wrapper {
+
+}
