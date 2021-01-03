@@ -15,14 +15,19 @@ body {
   flex-grow: 1;
 }
 
-#home-background {
-  background-image: url('images/home-background.jpg');
-  position: absolute;
+.background {
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
+}
+
+/* Home */
+
+#home-background {
+  background-image: url('images/home-background.jpg');
 }
 
 #home-wrapper {
@@ -51,7 +56,7 @@ body {
 }
 
 #home-menu {
-  min-width: 350px;
+  min-width: 325px;
   margin-left: 50px;
 }
 
@@ -87,4 +92,48 @@ body {
 
 .social-icon {
   margin-right: 10px;
+}
+
+/* About */
+
+#about-background {
+  background-image: url('images/about-background.jpg');
+}
+
+#about-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#about-wrapper p {
+  color: rgb(0, 36, 59);
+  font-size: 15px;
+  font-weight: 400;
+  hyphens: auto;
+  line-height: 22.5px;
+  text-align: justify;
+  margin: 0;
+}
+
+#profile-picture {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 25px;
+}
+
+#profile-picture img {
+  width: 200px;
+  height: 240px;
+}
+
+#about-first, #about-second {
+  width: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+}
+
+#about-second {
+  margin-bottom: 50px;
 }
