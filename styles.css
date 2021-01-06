@@ -295,3 +295,79 @@ body {
 #press-wrapper {
   margin-bottom: 100px;
 }
+
+/* Fragments */
+
+.fragments-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-color: #fefffe;
+  color: #67676a;
+}
+
+.fragments-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.fragments-text {
+  width: 320px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: 90px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.fragments-text h1 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.fragments-art {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.fragments-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 750px;
+}
+
+.fragments-images img {
+  width: 335px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fragments-plate-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+  width: 100%;
+}
+
+.fragments-plate {
+  font-size: 15px;
+  font-weight: 100;
+  width: 335px;
+  margin-left: 20px;
+}
+
+.fragments-plate p {
+  font-size: 12px;
+  margin: 0;
+  margin-top: 2px;
+}
