@@ -12,7 +12,7 @@ body {
 }
 
 .flex-space-filler {
-  flex-grow: 1;
+  flex-grow: 9;
 }
 
 .background {
@@ -237,7 +237,7 @@ body {
 
 #profile-picture img {
   width: 200px;
-  height: 240px;
+  height: auto;
 }
 
 #about-first, #about-second {
@@ -304,7 +304,7 @@ body {
   justify-content: center;
   min-height: 100%;
   background-color: #fefffe;
-  color: #67676a;
+  
 }
 
 .fragments-content {
@@ -340,12 +340,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 750px;
+  align-items: center;
 }
 
 .fragments-images img {
-  width: 335px;
-  height: 400px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 15px;
@@ -370,4 +368,24 @@ body {
   font-size: 12px;
   margin: 0;
   margin-top: 2px;
+}
+
+/* Almost No Memory */
+
+#almost-no-memory-wrapper {
+  color: #67676a;
+}
+
+#almost-no-memory-images {
+  max-width: 750px;
+}
+
+/* Channel */
+
+#channel-wrapper {
+  color: #9d9da6;
+}
+
+#channel-images {
+  max-width: 1000px;
 }
