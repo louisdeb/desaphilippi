@@ -389,3 +389,13 @@ body {
 #channel-images {
   max-width: 1000px;
 }
+
+/* Close to Home */
+
+#close-to-home-wrapper {
+  color: #67676a;
+}
+
+#close-to-home-images {
+  max-width: 750px;
+}
