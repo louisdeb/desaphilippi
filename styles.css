@@ -362,6 +362,56 @@ body {
   margin-bottom: 100px;
 }
 
+/* Projects */
+
+#projects-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+}
+
+#projects-grid {
+  width: min-content;
+  column-count: 4;
+  column-gap: 0px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1400px) {
+  #projects-grid {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 1050px) {
+  #projects-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 690px) {
+  #projects-grid {
+    column-count: 1;
+  }
+}
+
+#projects-grid a {
+  text-decoration: none;
+}
+
+.project {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 20px 20px;
+}
+
+.project-plate {
+  font-weight: 100;
+  font-size: 12px;
+}
+
 /* Fragments */
 
 .fragments-wrapper {
