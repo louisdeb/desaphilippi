@@ -428,6 +428,8 @@ body {
   max-width: 750px;
 }
 
+/* Reflections */
+
 #reflections-wrapper {
   height: 100%;
 }
@@ -499,4 +501,71 @@ body {
 #reflections-box > div {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/* Second Nature */
+
+#second-nature-background {
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+  position: absolute;
+  background-image: url('images/second-nature-main.jpg');
+  background-size: cover;
+  background-position: right;
+  z-index: 1;
+}
+
+#second-nature-wrapper {
+  height: 100%;
+}
+
+#second-nature-first-wrapper {
+  min-height: 100%;
+  background-color: #b7b6b1;
+}
+
+#second-nature-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+#second-nature-filler {
+  min-width: 375px;
+  height: 775px;
+}
+
+#second-nature-text {
+  width: 320px;
+  color: #fefffe;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#second-nature-second {
+  min-height: 100%;
+  background-color: #a6a8a2;
+  display: flex;
+  justify-content: center;
+}
+
+#second-nature-box {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+#second-nature-box > div {
+  justify-content: center;
+}
+
+#second-nature-box img {
+  margin: 7px;
 }
