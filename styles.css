@@ -11,6 +11,18 @@ body {
   height: 100%;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .flex-space-filler {
   flex-grow: 9;
 }
@@ -31,6 +43,7 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 999;
 }
 
 .menu-button {
@@ -413,4 +426,76 @@ body {
 
 #close-to-home-max-width {
   max-width: 750px;
+}
+
+#reflections-wrapper {
+  height: 100%;
+}
+
+#reflections-first-wrapper {
+  min-height: 100%;
+  background-color: #f0ecea;
+}
+
+#reflections-background {
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+  position: absolute;
+  background-image: url('images/reflections-main.jpg');
+  background-size: cover;
+  background-position: right;
+  z-index: 1;
+}
+
+#reflections-first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+#reflections-text {
+  width: 320px;
+  color: rgb(32, 38, 26);
+  margin-top: 20px;
+}
+
+#reflections-text h1 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#reflections-text p {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 22.5px;
+}
+
+#reflections-filler {
+  min-width: 375px;
+  height: 775px;
+}
+
+#reflections-second {
+  min-height: 100%;
+  background-color: #aeb6ad;
+  display: flex;
+  justify-content: center;
+}
+
+#reflections-box {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+#reflections-box > div {
+  margin-left: 10px;
+  margin-right: 10px;
 }
