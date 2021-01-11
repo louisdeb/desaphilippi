@@ -427,7 +427,6 @@ body {
   justify-content: center;
   min-height: 100%;
   background-color: #fefffe;
-  
 }
 
 .fragments-content {
@@ -532,10 +531,26 @@ body {
 
 #close-to-home-wrapper {
   color: #67676a;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
 }
 
 #close-to-home-max-width {
+  max-width: 750px;
+}
+
+/* Wall Channel */
+
+#wall-channel-wrapper {
+  color: #68686a;
+  line-height: 20px;
+}
+
+#wall-channel-wrapper .fragments-plate {
+  font-size: 12px;
+  text-align: center;
+}
+
+#wall-channel-max-width {
   max-width: 750px;
 }
 
