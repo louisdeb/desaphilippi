@@ -412,9 +412,10 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   width: 90%;
+  margin-bottom: 70px;
 }
 
-#projects-grid img {
+.project-tile {
   margin: 20px;
 }
 
