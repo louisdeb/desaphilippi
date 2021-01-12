@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+i {
+  font-weight: 300;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
