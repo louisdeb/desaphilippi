@@ -715,18 +715,6 @@ i {
   z-index: 1;
 }
 
-@media (max-width: 778px) { /* iPad */
-  #reflections-background {
-    padding-left: 100px;
-  }
-}
-
-@media (max-width: 590px) { /* iPad */
-  #reflections-background {
-    padding-left: 0px;
-  }
-}
-
 #reflections-first {
   display: flex;
   flex-direction: row;
@@ -756,8 +744,8 @@ i {
 }
 
 #reflections-filler {
-  min-width: 375px;
-  height: 790px;
+  min-width: min(500px, 100vw);
+  height: 100vh;
 }
 
 #reflections-second {
@@ -781,6 +769,16 @@ i {
   margin-right: 10px;
 }
 
+@media (max-width: 640px) {
+  .reflections-row {
+    justify-content: center;
+  }
+  
+  .reflections-row img {
+    margin: 20px;
+  }
+}
+
 /* Second Nature */
 
 #second-nature-background {
@@ -792,18 +790,6 @@ i {
   background-size: cover;
   background-position: right;
   z-index: 1;
-}
-
-@media (max-width: 778px) { /* iPad */
-  #second-nature-background {
-    padding-left: 100px;
-  }
-}
-
-@media (max-width: 590px) { /* iPad */
-  #second-nature-background {
-    padding-left: 0px;
-  }
 }
 
 #second-nature-wrapper {
@@ -862,4 +848,28 @@ i {
 
 #second-nature-box img {
   margin: 7px;
+}
+
+@media (max-width: 778px) {
+  #second-nature-background {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 590px) {
+  #second-nature-background {
+    padding-left: 0px;
+  }
+}
+
+@media (max-height: 812px) {
+  #second-nature-filler {
+    height: 812px;
+  }
+}
+
+@media (max-height: 736px) {
+  #second-nature-filler {
+    height: 700px;
+  }
 }
