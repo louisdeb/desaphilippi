@@ -215,22 +215,6 @@ i {
   }
 }
 
-@media (max-width: 375px) {
-  #home-menu {
-    margin-left: 182px;
-    margin-top: 0px;
-  }
-}
-
-@media (max-height: 375px) {
-  #home-content {
-    margin-top: 0;
-  }
-  #home-menu {
-    margin-top: 0 !important;
-  }
-}
-
 @media (max-width: 414px) {
   #home-menu {
     margin-left: 204px;
@@ -249,6 +233,22 @@ i {
   #home-menu {
     margin-top: 20px !important;
     margin-left: 160px;
+  }
+}
+
+@media (max-width: 375px) {
+  #home-menu {
+    margin-left: 185px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-height: 375px) {
+  #home-content {
+    margin-top: 0;
+  }
+  #home-menu {
+    margin-top: 0 !important;
   }
 }
 
@@ -330,7 +330,7 @@ i {
 }
 
 #about-second {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 /* Exhibitions */
