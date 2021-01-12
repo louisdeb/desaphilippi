@@ -156,11 +156,26 @@ i {
 }
 
 .menu-button-close {
+  width: min-content;
   font-weight: 100;
   font-size: 24px;
   cursor: pointer;
   margin-top: 30px;
   margin-left: 6px;
+}
+
+@media (max-height: 414px) {
+  .menu ul {
+    margin-top: 20px;
+  }
+
+  .menu-socials {
+    margin-top: 10px;
+  }
+
+  .menu-button-close {
+    margin-top: 10px;
+  }
 }
 
 /* Home */
@@ -333,6 +348,26 @@ i {
   margin-bottom: 100px;
 }
 
+@media (max-width: 768px) {
+  #about-second {
+    margin-left: 290px;
+  }
+}
+
+@media (max-width: 414px) {
+  #about-wrapper {
+    justify-content: center;
+  }
+
+  #profile-picture {
+    margin-right: 50px;
+  }
+
+  #about-second {
+    margin-left: 25px;
+  }
+}
+
 /* Exhibitions */
 
 #exhibitions-background {
@@ -420,11 +455,103 @@ i {
   flex-direction: column;
   flex-wrap: wrap;
   width: 90%;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 
 .project-tile {
   margin: 20px;
+}
+
+#project-tile-reflections {
+  margin-top: 150px; 
+  margin-bottom: 0px;
+}
+
+#project-tile-almost-no-memory {
+  margin-top: 0px;
+}
+
+#project-tile-channel {
+  margin-top: 50px;
+}
+
+#project-tile-second-nature {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#project-tile-close-to-home {
+  margin-top: -20px;
+  margin-left: 40px;
+}
+
+#project-tile-wall-channel {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 812px) {
+  #project-tile-wall-channel {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  #project-tile-wall-channel {
+    margin-left: 400px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 667px) {
+  #project-tile-reflections {
+    margin-top: 20px;
+  }
+
+  #project-tile-channel {
+    margin-left: 100px;
+  }
+
+  #project-tile-second-nature {
+    margin-bottom: 50px;
+  }
+
+  #project-tile-close-to-home {
+    margin-top: -300px;
+  }
+
+  #project-tile-wall-channel {
+    margin-top: -300px;
+  }
+}
+
+@media (max-width: 414px) {
+  #project-tile-reflections {
+    margin-top: 50px;
+  }
+
+  #project-tile-almost-no-memory {
+    margin-top: 20px;
+  }
+
+  #project-tile-channel {
+    margin-top: -20px;
+    margin-left: 180px;
+  }
+
+  #project-tile-second-nature {
+    margin-top: 0;
+  }
+
+  #project-tile-close-to-home {
+    margin-top: 50px;
+  }
+
+  #project-tile-wall-channel {
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+  }
 }
 
 /* Fragments */
