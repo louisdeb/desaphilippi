@@ -579,13 +579,25 @@ i {
 
 #reflections-background {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   max-height: 800px;
   position: absolute;
   background-image: url('images/reflections-main.jpg');
   background-size: cover;
   background-position: right;
   z-index: 1;
+}
+
+@media (max-width: 778px) { /* iPad */
+  #reflections-background {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 590px) { /* iPad */
+  #reflections-background {
+    padding-left: 0px;
+  }
 }
 
 #reflections-first {
@@ -618,7 +630,7 @@ i {
 
 #reflections-filler {
   min-width: 375px;
-  height: 775px;
+  height: 790px;
 }
 
 #reflections-second {
@@ -646,13 +658,25 @@ i {
 
 #second-nature-background {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   max-height: 800px;
   position: absolute;
   background-image: url('images/second-nature-main.jpg');
   background-size: cover;
   background-position: right;
   z-index: 1;
+}
+
+@media (max-width: 778px) { /* iPad */
+  #second-nature-background {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 590) { /* iPad */
+  #second-nature-background {
+    padding-left: 0px;
+  }
 }
 
 #second-nature-wrapper {
@@ -691,7 +715,7 @@ i {
 
 #second-nature-second {
   min-height: 100%;
-  background-color: #a6a8a2;
+  background-color: #b7b6b1;
   display: flex;
   justify-content: center;
 }
