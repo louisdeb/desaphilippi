@@ -800,7 +800,7 @@ i {
   }
 }
 
-@media (max-width: 590) { /* iPad */
+@media (max-width: 590px) { /* iPad */
   #second-nature-background {
     padding-left: 0px;
   }
