@@ -20,7 +20,7 @@ ExpiresByType application/javascript "access plus 1 year"
 </IfModule>
 # Set the cache-control max-age
 # 1 year
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
 Header set Cache-Control "max-age=31449600, public"
 </FilesMatch>
 # 2 DAYS
@@ -28,7 +28,7 @@ Header set Cache-Control "max-age=31449600, public"
 Header set Cache-Control "max-age=172800, public, must-revalidate"
 </FilesMatch>
 # 4 HOURS
-<FilesMatch "\.(html|htm)$">
+<FilesMatch "\.(html|htm|js|css)$">
 Header set Cache-Control "max-age=14400, must-revalidate"
 </FilesMatch>
  
