@@ -618,7 +618,7 @@ i {
   align-items: center;
 }
 
-.fragments-images img {
+.fragments-images a {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 15px;
@@ -847,7 +847,7 @@ i {
   justify-content: center;
 }
 
-#second-nature-box img {
+#second-nature-box a {
   margin: 7px;
 }
 
